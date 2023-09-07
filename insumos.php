@@ -180,7 +180,7 @@ session_start();
                             <td><?=$r->tipo_insumo?></td>
                             <td><?=$r->oficina?></td>
                             <td><?=$r->descripcion?></td> 
-                            <td><a class='btn btn-info' href='editarinsumo.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_insumo.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>;
+                            <td><a class='btn btn-info' href='editarinsumo.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_insumo.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>
                     <?php
                         }
                       }?> 

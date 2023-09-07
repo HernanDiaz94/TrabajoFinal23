@@ -176,7 +176,7 @@ session_start();
                             <td><?=$r->nombre_oficina?></td> 
                             <td><?=$r->codigo?></td>
                             <td><?=$r->descripcion?></td> 
-                            <td><a class='btn btn-info' href='editaroficinas.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_oficina.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>;
+                            <td><a class='btn btn-info' href='editaroficinas.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_oficina.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>
                     <?php
                         }
                       }?> 

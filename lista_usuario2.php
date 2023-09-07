@@ -215,7 +215,7 @@ if (isset($_SESSION['user_id'])) {
                     <td><?= $tipo ?></td>
                     <td>
                       <a class='btn btn-info' href='editar_usuario2.php?id=<?= $r->_id ?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_usuario2.php?id=<?= $r->_id ?>'> <i class='icon-trash'></i>Eliminar</a>
-                    </td>;
+                    </td>
                   </tr>
 
               <?php

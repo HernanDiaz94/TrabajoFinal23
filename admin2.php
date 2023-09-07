@@ -182,7 +182,7 @@ session_start();
                             <td><?=$r->tipo?></td> 
                             <td><?=$r->resumen?></td>
                             <td><?=$r->estado?></td>
-                            <td><a class='btn btn-info' href='editar2.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_problema.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>;
+                            <td><a class='btn btn-info' href='editar2.php?id=<?=$r->_id?>'> <i class='icon-edit'></i> Editar</a> <a class='btn btn-danger' onclick='return confirm(`¿Está seguro que desea eliminar el problema?`)' href='borrar_problema.php?id=<?=$r->_id?>'> <i class='icon-trash'></i>Eliminar</a></td></td>
                     <?php
                         }
                       }?> 
